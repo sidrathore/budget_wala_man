@@ -66,31 +66,40 @@ class _LoginPageState extends State<LoginPage> {
                           },
                         ),
                       ),
-                      
                     ],
                   ),
                 ),
-                SizedBox(height: 30,),
+                SizedBox(
+                  height: 30,
+                ),
                 InkWell(
                   onTap: () {
-                    
+                    Navigator.pushNamed(context, '/otppage');
                   },
-                        child: Container(
-                          color: Color.fromARGB(255, 20, 91, 23),
-                          width: 200,
-                          height: 45,
-                          child: Center(child: Text('Login',style: TextStyle(fontSize: 19,color: Color.fromARGB(221, 0, 0, 0)),)),
-                        ),
-                      ),
-                      SizedBox(height: 2,),
-                      Container(
-                        child: TextButton(
-                          onPressed: () {
-                            
-                          },
-                          child: Text('Sign up',style: TextStyle(color: Color.fromARGB(255, 239, 18, 2)),)),
-                      )
-
+                  child: Container(
+                    color: Color.fromARGB(255, 20, 91, 23),
+                    width: 200,
+                    height: 45,
+                    child: Center(
+                        child: Text(
+                      'Login',
+                      style: TextStyle(
+                          fontSize: 19, color: Color.fromARGB(221, 0, 0, 0)),
+                    )),
+                  ),
+                ),
+                SizedBox(
+                  height: 2,
+                ),
+                Container(
+                  child: TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        'Sign up',
+                        style:
+                            TextStyle(color: Color.fromARGB(255, 239, 18, 2)),
+                      )),
+                )
               ],
             ),
           ),
