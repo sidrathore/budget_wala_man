@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                 )
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.all(9),
                 child: Text('Lets Fix Expenses'),
               ),
            ],
