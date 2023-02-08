@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 50,
                 ),
                 InkWell(
                   onTap: () {
