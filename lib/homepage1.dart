@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                   width: 50,
                   height: 25,
                   color: Color.fromARGB(255, 60, 145, 63),
-                  child: Center(child: Text('Done')),
+                  child: Center(child: Text('Done ')),
                 ),
               ),
               SizedBox(
