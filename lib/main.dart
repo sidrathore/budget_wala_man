@@ -2,6 +2,7 @@
 import 'package:budget_wala_man/homepage1.dart';
 import 'package:budget_wala_man/login_page.dart';
 import 'package:budget_wala_man/otp_page.dart';
+import 'package:budget_wala_man/sign_up_page.dart';
 import 'package:budget_wala_man/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,8 @@ void main() {
       '/loginpage':(context) => LoginPage(),
       '/otppage':(context) => OTPPage(),
       '/homepage':(context) => HomePage(),
+      '/signup':(context) => SignUp(),
+       
     },
     
   ));
