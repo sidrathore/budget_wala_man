@@ -1,4 +1,5 @@
-import 'package:budget_wala_man/home_page.dart';
+
+import 'package:budget_wala_man/homepage1.dart';
 import 'package:budget_wala_man/login_page.dart';
 import 'package:budget_wala_man/otp_page.dart';
 import 'package:budget_wala_man/sign_up_page.dart';
