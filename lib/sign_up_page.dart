@@ -1,3 +1,4 @@
+import 'package:budget_wala_man/constaint/sharedprefs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -42,6 +43,9 @@ class _SignUpState extends State<SignUp> {
                 Container(
                   color: Colors.white,
                   child: TextField(
+                     decoration:  InputDecoration(
+                      hintText: SharedPrefsConstant.name.toString(),
+                    ),
                     controller: nameController,
                   ),
                 ),
@@ -52,6 +56,7 @@ class _SignUpState extends State<SignUp> {
                   child: Text(
                     'Age',
                     style: TextStyle(fontSize: 20),
+                    
                   ),
                 ),
                 SizedBox(
@@ -60,6 +65,9 @@ class _SignUpState extends State<SignUp> {
                 Container(
                   color: Colors.white,
                   child: TextField(
+                    decoration:  InputDecoration(
+                      hintText: SharedPrefsConstant.age.toString(),
+                    ),
                     controller: ageController,
                   ),
                 ),
@@ -78,6 +86,9 @@ class _SignUpState extends State<SignUp> {
                 Container(
                   color: Colors.white,
                   child: TextField(
+                     decoration:  InputDecoration(
+                      hintText: SharedPrefsConstant.emailid.toString(),
+                    ),
                     controller: emailController,
                   ),
                 ),
