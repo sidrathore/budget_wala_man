@@ -6,19 +6,18 @@ import 'package:budget_wala_man/sign_up_page.dart';
 import 'package:budget_wala_man/splash_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main()  {
+  
   runApp(MaterialApp(
     // home: SplashScreen(),
-    
+
     routes: {
-      '/':(context) => SplashScreen(),
-      '/loginpage':(context) => LoginPage(),
-      '/otppage':(context) => OTPPage(),
-      '/homepage':(context) => HomePage(),
-      '/signup':(context) => SignUp(),
-       
+      '/': (context) => SplashScreen(),
+      '/loginpage': (context) => LoginPage(),
+      '/otppage': (context) => OTPPage(),
+      '/homepage': (context) => HomePage(),
+      '/signup': (context) => SignUp(),
     },
-    
   ));
 }
 
